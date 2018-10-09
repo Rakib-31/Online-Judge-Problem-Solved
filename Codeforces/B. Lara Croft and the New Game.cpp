@@ -33,12 +33,11 @@ int main(){
             if(col%2==0)
                 cl = m+1-last;
             else
-                cl = col+1;
+                cl = last+1;
 
         }
         printf("%I64d %I64d\n",row,cl);
     }
-
 
     return 0;
 }
